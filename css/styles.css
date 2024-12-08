@@ -1,4 +1,4 @@
-/* #region General */
+/* #region General + */
 
 *,
 *::before,
@@ -57,12 +57,6 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-/* .container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-} */
-
 .container {
     max-width: 320px;
     padding: 0 16px;
@@ -108,7 +102,6 @@ h3 {
 
 .top-line {
     border-bottom: 1px solid rgb(231, 233, 252);
-    /* padding: 24px 0; */
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 
                 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
                 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
@@ -128,7 +121,6 @@ h3 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding: 16px 0;
-    /* margin-right: 76px; */
 }
 
 @media only screen and (min-width: 768px) {
@@ -143,27 +135,10 @@ h3 {
     margin-right: 76px;
   }
 }
-/* .top-logo,
-.foot-logo {
-    font-family: "Raleway", sans-serif;
-    color: rgb(77, 90, 229);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-} */
 
 .top-logo-accent {
     color: rgb(46, 47, 66);
 }
-
-/* .menu-nav {
-    display: flex;
-    color: rgb(46, 47, 66);
-    font-weight: 500;
-    gap: 40px;
-} */
 
 .menu-nav {
     display: none;
@@ -220,11 +195,6 @@ h3 {
     font-style: normal;
 }
 
-/* .address-list {
-    display: flex;
-    gap: 40px;
-} */
-
 .address-list {
     display: none;
 }
@@ -254,7 +224,7 @@ h3 {
 
 /* #endregion */
 
-/* #region Mobile Menu */
+/* #region Mobile Menu + */
 
 .burger-btn {
     padding: 0;
@@ -291,8 +261,6 @@ h3 {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.mobile-item {}
 
 .mobile-menu.is-open {
     opacity: 1;
@@ -344,7 +312,7 @@ h3 {
 
 .mobile-contacts {
     margin-bottom: 48px;
-    margin-top: 168px;
+    margin-top: auto;
 }
 
 .mobile-contacts-list {
@@ -375,23 +343,6 @@ h3 {
 /* #endregion */
 
 /* #region Hero + */
-
-/* .hero-section {
-    color: rgb(255, 255, 255);
-    background-color: rgb(46, 47, 66);
-    background-image:   linear-gradient(
-                            to bottom,
-                            rgba(46, 47, 66, 0.7),
-                            rgba(46, 47, 66, 0.7)
-                        ),
-                        url(../images/hero-background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 188px 0;
-} */
 
 .hero-section {
     color: rgb(255, 255, 255);
@@ -467,18 +418,6 @@ h3 {
     }
 }
 
-/* .hero-title {
-    color: rgb(255, 255, 255);
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    max-width: 496px;
-    margin: auto;
-    margin-bottom: 48px;
-} */
-
 .hero-title {
     color: rgb(255, 255, 255);
     font-family: Roboto;
@@ -534,10 +473,6 @@ h3 {
 
 /* #region Advanteges + */
 
-/* .advanteges-section {
-    padding: 120px 0;
-} */
-
 .advanteges-section {
     padding: 96px 0;
 }
@@ -561,11 +496,6 @@ h3 {
     overflow: hidden;
 }
 
-/* .advantages-list {
-    display: flex;
-    gap: 24px;
-} */
-
 .advantages-list {
     display: flex;
     flex-direction: column;
@@ -579,10 +509,6 @@ h3 {
     gap: 72px 24px;
   }
 }
-
-/* .advantages-item {
-    width: calc((100% - 72px) / 4);
-} */
 
 @media only screen and (min-width: 768px) {
   .advantages-item {
@@ -614,10 +540,6 @@ h3 {
     margin-bottom: 8px;
     }
 }
-
-/* .advantages-title {
-    margin-bottom: 8px;
-} */
 
 .advantages-title {
     font-size: 36px;
@@ -661,11 +583,6 @@ h3 {
     padding: 120px 0;
 }
 
-/* .team-list {
-    display: flex;
-    gap: 24px;
-} */
-
 .team-list {
     display: flex;
     flex-direction: column;
@@ -681,16 +598,6 @@ h3 {
     justify-content: center;
   }
 }
-
-/* .team-card {
-    width: calc((100% - 72px) / 4);
-    text-align: center;
-    background: rgb(255, 255, 255);
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
-                0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
-                0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-} */
 
 .team-card {
     width: 264px;
@@ -747,10 +654,6 @@ h3 {
 
 /* #region Portfolio + */
 
-/* .portfolio-section {
-    padding: 120px 0 120px 0;
-} */
-
 .portfolio-section {
     padding: 96px 0;
 }
@@ -760,13 +663,6 @@ h3 {
     padding: 120px 0;
   }
 }
-
-/* .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-} */
 
 .portfolio-list {
     display: flex;
@@ -787,13 +683,6 @@ h3 {
     gap: 48px 24px;
   }
 }
-
-/* .portfolio-item {
-    width: calc((100% - 48px) / 3);
-    overflow: hidden;
-    position: relative;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
 
 .portfolio-item {
     width: 288px;
@@ -879,15 +768,13 @@ h3 {
     overflow: hidden;
 }
 
+.portfolio-title {
+    margin-bottom: 8px;
+}
+
 /* #endregion */
 
-/* #region Footer */
-
-/* .foot-line {
-    background: rgb(46, 47, 66);
-    color: rgb(244, 244, 253);
-    padding: 100px 0;
-} */
+/* #region Footer + */
 
 .foot-line {
     background: rgb(46, 47, 66);
@@ -897,14 +784,9 @@ h3 {
 
 @media only screen and (min-width: 1158px) {
   .foot-line {
-    padding: 120px 0;
+    padding: 100px 0;
   }
 }
-
-/* .footdiv {
-    display: flex;
-    align-items: baseline;
-} */
 
 .footdiv {
     display: flex;
@@ -918,9 +800,8 @@ h3 {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: flex-start;
         align-items: flex-start;
-        gap: 72px 24px;
+        gap: 0 24px;
         align-content: center;
         max-width: 584px;
     }
@@ -933,11 +814,6 @@ h3 {
         min-width: 1158px;
     }
 }
-
-/* .foot-left-box {
-    display: block;
-    margin-right: 120px;
-} */
 
 .foot-left-box {
     text-align: center;
@@ -954,6 +830,7 @@ h3 {
 @media only screen and (min-width: 1158px) {
     .foot-left-box {
         margin-right: 120px;
+        margin-bottom: 0;
     }
 }
 
@@ -973,17 +850,10 @@ h3 {
     color: rgb(244, 244, 253);
 }
 
-
-
 .foot-text {
     letter-spacing: 0.02em;
     width: 264px;
 }
-
-/* .social-media {
-    display: block;
-    margin-right: 80px;
-} */
 
 .social-media {
     text-align: center;
@@ -995,13 +865,6 @@ h3 {
         margin: 0;
     }
 }
-
-/* .social-media-title {
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color: rgb(255, 255, 255);
-    margin-bottom: 16px;
-} */
 
 .social-media-title {
     font-weight: 500;
@@ -1045,11 +908,6 @@ h3 {
 }
 }
 
-/* .sub-section {
-    width: 100%;
-    max-width: 453px;
-} */
-
 .sub-section {
     display: flex;
     flex-direction: column;
@@ -1068,13 +926,6 @@ h3 {
         margin-left: auto;
     }
 }
-/* .sub-title {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: rgb(255, 255, 255);
-    margin-bottom: 16px;
-} */
 
 .sub-title {
     font-weight: 500;
@@ -1091,11 +942,6 @@ h3 {
     }
 }
 
-/* .sub-form {
-    display: flex;
-    gap: 24px;
-} */
-
 .sub-form {
     display: flex;
     gap: 16px;
@@ -1107,17 +953,11 @@ h3 {
     .sub-form {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        gap: 24px;
     }
 }
 
-/* .sub-label {
-    display: flex;
-    flex-direction: column;
-} */
-
 .sub-window {
-    /* width: 100%; */
     width: 288px;
     height: 40px;
     padding: 8px 16px;
@@ -1147,7 +987,6 @@ h3 {
     justify-content: center;
     align-items: center;
     align-self: center;
-    /* gap: 16px; */
     cursor: pointer;
     min-width: 165px;
     padding: 8px 24px;
@@ -1177,7 +1016,7 @@ h3 {
 
 /* #endregion */
 
-/* #region  Modal */
+/* #region  Modal + */
 
 .backdrop {
     position: fixed;
@@ -1197,22 +1036,6 @@ h3 {
     visibility: visible;
     pointer-events: auto;
 }
-
-/* .modal-window {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 408px;
-    min-height: 584px;
-    padding: 72px 24px 24px 24px;
-    background-color: rgb(252, 252, 252);
-    border-radius: 4px;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
-                0px 1px 3px rgba(0, 0, 0, 0.12), 
-                0px 2px 1px rgba(0, 0, 0, 0.2);
-    transform: translate(-50%, -50%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
 
 .modal-window {
     position: absolute;
@@ -1378,7 +1201,6 @@ h3 {
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 16px;
     height: 16px;
-    /* margin-right: 8px; */
     cursor: pointer;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
@@ -1388,7 +1210,6 @@ h3 {
 
 .checkbox-text {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     gap: 8px;
 }
